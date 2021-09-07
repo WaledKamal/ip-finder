@@ -20,5 +20,5 @@ It is a simple application to find out the IP Address
 ## Libs
 - Axios
 
-#Live Perview : https://waledkamal.github.io/ip-finder/
+# Live Perview : https://waledkamal.github.io/ip-finder/
 
