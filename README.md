@@ -3,7 +3,7 @@
 
 ![N|Solid](https://waledkamal.github.io/ip-finder/logo.png)
 
-[![Build Status]()
+[Build Status]
 
 It is a simple application to find out the IP Address
 
