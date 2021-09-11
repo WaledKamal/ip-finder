@@ -19,20 +19,19 @@ function App() {
       <div className="container">
         <div className="heading">
           <img src={process.env.PUBLIC_URL + "/logo.png"}></img>
-          <h1>What is My IP Addess ? </h1>
+          <h1>What is My IP Address ? </h1>
         </div>
         <div className="ip-data">
           <div className="item_data">
-            Your Country Code : {ipAddress.country_code}
+            Your Country Code : {ipAddress.country_code ? ipAddress.country_code : "Not Found"}
           </div>
-          <div className="item_data">Country : {ipAddress.country_name}</div>
-          <div className="item_data">State Address is : {ipAddress.state}</div>
-          <div className="item_data">City : {ipAddress.city}</div>
+          <div className="item_data">Country : {ipAddress.country_name ? ipAddress.country_name : "Not Found"}</div>
+          <div className="item_data">State Address is : {ipAddress.state ? ipAdrees.state : "Not Found"}</div>
+          <div className="item_data">City : {ipAddress.city ? ipAddress.city : "Not Found"}</div>
           <div className="item_data">
             Postal : {ipAddress.postal ? ipAddress.postal : "Not Found"}
-          </div>
-          <div className="item_data">Latitude : {ipAddress.latitude}</div>
-          <div className="item_data">Longitude : {ipAddress.longitude}</div>
+          <div className="item_data">Latitude : {ipAddress.Latitude ? ipAddress.Latitude : "Not Found"}</div>
+          <div className="item_data">Longitude : {ipAddress.longitude ? ipAddress.longitude : "Not Found"}</div>
           <div className="item_data">IP Address (IPv4) : {ipAddress.IPv4}</div>
         </div>
       </div>
