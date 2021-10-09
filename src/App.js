@@ -32,7 +32,7 @@ function App() {
             Postal : {ipAddress.postal ? ipAddress.postal : "Not Found"}
           <div className="item_data">Latitude : {ipAddress.Latitude ? ipAddress.Latitude : "Not Found"}</div>
           <div className="item_data">Longitude : {ipAddress.longitude ? ipAddress.longitude : "Not Found"}</div>
-          <div className="item_data">IP Address (IPv4) : {ipAddress.IPv4}</div>
+          <div className="item_data">IP Address (IPv4) : {ipAddress.IPv4 ? ipAddress.IPv4 : "IP NOT FOUND !"}</div>
         </div>
       </div>
     </div>
